@@ -1,0 +1,123 @@
+.body{
+    
+    background-color: aliceblue;
+    font-family: Courier New;
+}
+@media screen and (max-width:600px){
+    .body{
+    float: none;
+    height: auto;
+    width:auto;
+    padding: 1%;
+}
+}
+
+@media screen and (max-width:600px){
+    .header{
+    float: none;
+    height: auto;
+    width:auto;
+    padding: 1%;
+}
+}
+
+li{
+    font-weight: bold;
+}
+
+
+h4{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    
+}
+
+h1{
+    text-align: center;
+    color: #53a10e;
+    font-weight: bold;
+}
+.card{
+    border-color: #0e99a6;
+    background-color:aliceblue;
+}
+.green{
+    color: #53a10e;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.brown{
+    color: saddlebrown;
+    font-style:italic;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #53a10e;
+    height: 50px;
+    color: ;
+    text-align: center;
+    
+}
+
+.footerp{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color:aliceblue;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.content{
+    text-align: center;
+}
